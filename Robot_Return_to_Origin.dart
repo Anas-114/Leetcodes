@@ -2,22 +2,25 @@
     int  x=0;
     int y=0;
    Map<String, List<int>> directions = {
-    "R": [0,1],
-    "U": [0,-1],
-    "L": [1,0],
-    "D": [-1,0]
+    "U": [0,1],
+    "D": [0,-1],
+    "L": [-1,0],
+    "R": [1,0]
   };
   for (var i = 0; i < moves.length; i++) {
-    String m=moves[i];
+    String? m=moves[i];
  if(directions.containsKey(m)){
   x+=directions[m]![0];
-  y+=directions[m]![0];
+  y+=directions[m]![1];
  }
+ 
   
   }
-  return x==0&&y==0?true:false;
+  print(y);
+  print(x);
+  return x==0 && y==0?true:false;
   }
   void main(){
 
-   print( judgeCircle('LL'));
+   print( judgeCircle("DURDLDRRLL"));
   }
