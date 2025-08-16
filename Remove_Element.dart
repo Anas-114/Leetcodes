@@ -7,6 +7,7 @@ int removeElement(List<int> nums, int val) {
     }
   }
   print(c);
+  print('corrected');
   return c.length;
 }
 
