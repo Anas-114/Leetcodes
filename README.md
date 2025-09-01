@@ -8,7 +8,7 @@ I'm solving problems daily to improve my Data Structures and Algorithms (DSA) sk
 
 ## 📂 Problem Solutions
 
-| Problem | File |
+| Problem | File | 
 |---------|------|
 | Add Digits | Add_Digits.dart |
 | Ant on the Boundary | Ant_on_the_Boundary.dart |
@@ -34,6 +34,8 @@ I'm solving problems daily to improve my Data Structures and Algorithms (DSA) sk
 - Solve at least **1 LeetCode problem daily**.
 - Improve problem-solving and Dart coding skills.
 - Push all solutions here to track my progress.
+- next i am tryng to become somthing more other than this to understand more problem solving
+
 
 ---
 
